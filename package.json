@@ -1,0 +1,20 @@
+{
+  "name": "karuta",
+  "version": "0.1.0",
+  "description": "かるた対戦",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "karuta-server.js",
+  "scripts": {
+    "start": "node karuta-server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.0.0"
+  },
+  "license": "MIT"
+}
