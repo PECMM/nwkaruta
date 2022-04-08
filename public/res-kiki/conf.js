@@ -36,6 +36,7 @@ const settings = {
     { id:'h5', label:'ほ', imgPath:'h5.jpg', soundPath:'h5.mp3', },
     { id:'m4', label:'め', imgPath:'m4.jpg', soundPath:'m4.mp3', },
     { id:'y1', label:'や', imgPath:'y1.jpg', soundPath:'y1.mp3', },
+    { id:'r1', label:'ら', imgPath:'r1.jpg', soundPath:'r1.mp3', },
   ],
 };
 
