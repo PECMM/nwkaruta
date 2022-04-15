@@ -32,6 +32,7 @@ const settings = {
     { id:'s3', label:'す', imgPath:'s3.jpg', soundPath:'s3.mp3', },
     { id:'s5', label:'そ', imgPath:'s5.jpg', soundPath:'s5.mp3', },
     { id:'t1', label:'た', imgPath:'t1.jpg', soundPath:'t1.mp3', },
+    { id:'t2', label:'ち', imgPath:'t2.jpg', soundPath:'t2.mp3', },
     { id:'t3', label:'つ', imgPath:'t3.jpg', soundPath:'t3.mp3', },
     { id:'t4', label:'て', imgPath:'t4.jpg', soundPath:'t4.mp3', },
     { id:'n2', label:'に', imgPath:'n2.jpg', soundPath:'n2.mp3', },
