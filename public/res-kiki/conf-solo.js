@@ -1,9 +1,12 @@
 const settings = {
-  appId: 'kikisamakaruta',
+  appId: 'kikisamakaruta-solo',
   dataId:'1',
   
+  penaltySecPerCard: 30,
+  rankingMaxSize: 8, // 同一カード枚数ごとのランキング履歴保持数
+  
   pageOptions: {
-    title: 'キキ様 朝ツイかるた 対戦版',
+    title: 'キキ様 朝ツイかるた タイムアタック版',
     referenceHTML: [
       '元ネタ：<a href="https://twitter.com/Kiki_Shisui">紫水キキ様</a> ',
       '<br />',
