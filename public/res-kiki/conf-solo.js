@@ -8,7 +8,9 @@ const settings = {
   pageOptions: {
     title: 'キキ様 朝ツイかるた タイムアタック版',
     referenceHTML: [
-      '元ネタ：<a href="https://twitter.com/Kiki_Shisui">紫水キキ様</a> ',
+      '元ネタ：<a href="https://twitter.com/Kiki_Shisui">紫水キキ</a>様 … <a href="https://twitter.com/search?q=from%3Akiki_shisui%20since%3A2022-02-01_07%3A00%3A00_JST%20until%3A2022-04-11_06%3A20%3A00_JST%20filter%3Aimages&src=typed_query&f=live">かるた画像</a> <a href="https://www.youtube.com/channel/UC3MBUvkVTI9p-p0be7y7TQA">読み上げ音声</a>',
+      '<br />',
+      '※本作は素材をお借りして作成したファンメイドのゲームです<br />',
       '<br />',
       '効果音素材：<a href="https://otologic.jp/">OtoLogic</a>様 ',
     ].map(x => `<span class='footerItem'>${x}</span>`).join(''),
