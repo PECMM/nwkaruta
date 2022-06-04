@@ -1,11 +1,8 @@
 const settings = {
-  appId: 'kikisamakaruta-solo',
-  
-  penaltySecPerCard: 30,
-  rankingMaxSize: 8, // 同一カード枚数ごとのランキング履歴保持数
+  appId: 'kikisamakaruta-multi',
   
   pageOptions: {
-    title: 'キキ様 朝ツイかるた ひとりであそぶ',
+    title: 'キキ様 朝ツイかるた みんなであそぶ',
     referenceHTML: [
       '元ネタ：<a href="https://twitter.com/Kiki_Shisui">紫水キキ</a>様 … <a href="https://twitter.com/search?q=from%3Akiki_shisui%20since%3A2022-02-01_07%3A00%3A00_JST%20until%3A2022-04-11_06%3A20%3A00_JST%20filter%3Aimages&src=typed_query&f=live">かるた画像</a> <a href="https://www.youtube.com/channel/UC3MBUvkVTI9p-p0be7y7TQA">読み上げ音声</a>',
       '※本作は素材をお借りして作成したファンメイドのゲームです',
