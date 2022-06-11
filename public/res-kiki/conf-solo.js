@@ -2,8 +2,8 @@ const settings = {
   appId: 'kikisamakaruta-solo',
   
   penaltySecPerCard: 30,
-  rankingMaxSize: 8, // 同一カード枚数ごとのランキング履歴保持数
   
+  tweetHashtag: '紫水キキ朝ツイかるた',
   pageOptions: {
     title: 'キキ様 朝ツイかるた ひとりであそぶ',
     referenceHTML: [

@@ -1,6 +1,7 @@
 const settings = {
   appId: 'kikisamakaruta-multi',
   
+  tweetHashtag: '紫水キキ朝ツイかるた',
   pageOptions: {
     title: 'キキ様 朝ツイかるた みんなであそぶ',
     referenceHTML: [
