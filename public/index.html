@@ -3,19 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>かるた</title>
-  <style>
-    img.banner {
-      width: 480px;
-      margin: 2px;
-      vertical-align: middle;
-    }
-  </style>
+  <style>.series-list{display:flex;flex-flow:column nowrap;align-items:stretch;gap:72px;padding:1rem}.series>span:first-child{font-size:1.5rem;margin-left:0}.series>span:first-child:before{content:'▼';margin-left:-.1rem;padding-right:.5rem}.series>div{display:flex;flex-flow:row wrap;justify-content:start;align-content:flex-start;align-items:center;gap:1.5rem;margin-left:.5rem;border-left:1px inset #ccc;border-bottom:1px inset #ccc;padding:1rem 1.5rem 1.5rem;font-size:1.25rem}.series img{width:480px;vertical-align:middle}</style>
 </head>
 
 <body>
-  <ul>
-    <li><a href='karuta-kiki.html'><img class='banner' src='res-kiki/banner-multi.jpg' alt='キキ様 朝ツイかるた みんなで遊ぶ' /></a></li>
-    <li><a href='karuta-solo-kiki.html'><img class='banner' src='res-kiki/banner-solo.jpg' alt='キキ様 朝ツイかるた ひとりで遊ぶ' /></a></li>
-  </ul>
+  <div class='series-list'>
+    <div class='series'>
+      <span>キキ様 朝ツイかるた</span>
+      <div>
+        <a href='karuta-kiki.html'><img src='./res-kiki/banner-multi.jpg' alt='キキ様 朝ツイかるた みんなで遊ぶ' /></a>
+        <a href='karuta-solo-kiki.html'><img src='./res-kiki/banner-solo.jpg' alt='キキ様 朝ツイかるた ひとりで遊ぶ' /></a>
+      </div>
+    </div>
+    <div class='series'>
+      <span>キキ様 2022お誕生日記念かるた</span>
+      <div>
+        <a href='res-kiki20220621/special.html'><img src='./res-kiki20220621/banner-logo.jpg' alt='キキ様2022お誕生日記念 特設ページ' /></a>
+        <a href='karuta-multi-kiki2022.html'><img src='./res-kiki20220621/banner-multi.jpg' alt='キキ様2022お誕生日記念かるた みんなであそぶ' /></a>
+        <a href='karuta-solo-kiki2022.html'><img src='./res-kiki20220621/banner-solo.jpg'  alt='キキ様2022お誕生日記念かるた ひとりであそぶ' /></a>
+        <a href='res-kiki20220621/ranking.html'>ひとりであそぶ 全国ランキング</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
