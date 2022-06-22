@@ -3,10 +3,7 @@ const settings = {
   
   penaltySecPerCard: 30,
   rankingAppURL: 'https://script.google.com/macros/s/AKfycby_cGDxRX3wTns6FJEBs6gREnr6WQDTPppjjNOI6wiE-FpXnVdEPUDnw9cRl0XjnabG/exec',
-  rankingPage: {
-    label: '全国ランキング',
-    linkPath: './ranking.html',
-  },
+  rankingPage: '全国ランキング',
   
   tweetHashtag: '紫水百パペ一首',
   pageOptions: {
